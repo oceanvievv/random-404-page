@@ -1,0 +1,20 @@
+body {
+  margin: 40px 77px 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  margin-bottom: 125px;
+}
+
+@media (max-width: 426px) {
+  body {
+    margin: 20px 24px 0;
+
+    overflow: auto;
+  }
+  .header {
+    margin-bottom: 64px;
+  }
+}
